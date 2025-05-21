@@ -9,15 +9,15 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔐 DB Context
+//  DB Context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 🔐 Identity
+//  Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// 🔐 JWT Settings
+//  JWT Settings
 builder.Services.Configure<JWTBearerTokenSettings>(
     builder.Configuration.GetSection("JwtBearerTokenSettings"));
 

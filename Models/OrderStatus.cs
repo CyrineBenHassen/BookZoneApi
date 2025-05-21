@@ -6,5 +6,5 @@
     Livree = 3,
     Annulee = 4
 
-    // Ajoutez d'autres statuts si nécessaire
+
 }

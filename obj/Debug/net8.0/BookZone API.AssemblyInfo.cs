@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookZone API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ce5a7befe4942656ab6d25df1ae6acea9a063c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookZone API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookZone API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
